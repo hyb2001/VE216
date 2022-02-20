@@ -1,0 +1,18 @@
+\documentclass[landscape, 12pt]{ctexart}
+\usepackage{tikz}
+\newcommand{\num}{pi}
+\begin{document}
+	\begin{figure}
+	\begin{tikzpicture}
+	\draw[->](-4,0)--(4,0)node[left,below,font=\normalsize]{$t$};
+	\draw[->](0,-1)--(0,2)node[right,font=\normalsize]{$x(t)$};
+	\foreach \x in {pi}{\draw(\x,0)--(\x,0.05)node[below,outer sep=2pt,font=\normalsize]at(\x,0){$\pi$};}
+	\foreach \x in {-pi}{\draw(\x,0)--(\x,0.05)node[below,outer sep=2pt,font=\normalsize]at(\x,0){-$\pi$};}
+	\foreach \y in {1}{\draw(0,\y)--(0.05,\y)node[left,outer sep=2pt,font=\normalsize]at(0,\y){\y};}
+	\draw[thick,domain=-rad(180):-rad(90)] plot(\x,{-sin(\x r)}) ;
+    \draw[thick,domain=-rad(90):0] plot(\x,{-sin(\x r)});
+    \draw[thick,domain=0:rad(90)] plot(\x,{sin(\x r)});
+    \draw[thick,domain=rad(90):rad(180)] plot(\x,{sin(\x r)});
+    \end{tikzpicture}
+	\end{figure}
+\end{document}

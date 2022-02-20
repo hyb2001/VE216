@@ -1,0 +1,27 @@
+\documentclass[landscape, 12pt]{ctexart}
+\usepackage{tikz}
+\newcommand{\num}{pi}
+\begin{document}
+	\begin{figure}
+	\begin{tikzpicture}[node distance=2cm]
+	\draw[->](-4,0)--(4,0)node[right]{$t$};
+	\draw[->](-3,-3)--(-3,2)node[above]{$x(t)$};
+	\draw[very thick](-5,0)--(-2,0);
+	\draw[very thick](-2,0)--(-2,-1);
+	\draw[very thick](-2,-1)--(0,-1);
+	\draw[very thick](0,-1)--(0,1);
+	\draw[very thick](0,1)--(1,1);
+	\draw[very thick](1,1)--(1,0);
+	\draw[very thick](1,0)--(3,0);
+	\draw[very thick](3,0)--(3,1);
+	\draw[very thick](3,1)--(5,1);
+	\draw (-3,0) node[above] {\quad0} -- ++(0,3pt);
+	\draw (-3,1) node[right] {1} -- ++(0,3pt);
+	\draw (-3,-1) node[right] {-1} -- ++(0,3pt);
+	\draw (1,0) node[below] {\quad4} -- ++(0,3pt);
+	\draw (3,0) node[below] {\quad6} -- ++(0,3pt);
+	\draw (-2,0) node[below] {\quad1} -- ++(0,3pt);
+	\draw (0,0) node[below] {\quad3} -- ++(0,3pt);
+    \end{tikzpicture}
+	\end{figure}
+\end{document}

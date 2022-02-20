@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{Background}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Closed-Loop\040Transfer\040Function}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Examples\040of\040Feedback\040Control\040Systems}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{DC\040Motor\040Model}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{No\040controller}{subsection.1.2}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Controller\040Without\040Feedback}{subsection.1.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.4}{Feedback\040Control}{subsection.1.2}% 7
+\BOOKMARK [3][-]{subsubsection.1.2.5}{Sensitivity\040of\040an\040Open-Loop\040Controller\040to\040Plant\040Changes}{subsection.1.2}% 8
+\BOOKMARK [3][-]{subsubsection.1.2.6}{Using\040Feedback\040to\040Stabilize\040Unstable\040Systems}{subsection.1.2}% 9
+\BOOKMARK [1][-]{section.2}{Experiment\040Procedures}{}% 10
+\BOOKMARK [2][-]{subsection.2.1}{Open\040Loop\040Control:\040Plant}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.2}{Feedback\040Control}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Experiment\040Result}{}% 13
+\BOOKMARK [1][-]{section.4}{Discussion\040and\040Error\040Analysis}{}% 14
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 15
